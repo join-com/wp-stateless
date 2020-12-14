@@ -6,6 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+    'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
+    'Normalizer' => $vendorDir . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
+    'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+    'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
     'UsabilityDynamics\\Job' => $vendorDir . '/udx/lib-utility/lib/class-job.php',
     'UsabilityDynamics\\Loader' => $vendorDir . '/udx/lib-utility/lib/class-loader.php',
     'UsabilityDynamics\\Settings' => $vendorDir . '/udx/lib-settings/lib/class-settings.php',
@@ -33,6 +38,9 @@ return array(
     'UsabilityDynamics\\WP\\TGM_Bulk_Installer_Skin' => $vendorDir . '/udx/lib-wp-bootstrap/lib/classes/class-tgm-bulk-installer.php',
     'UsabilityDynamics\\WP\\TGM_Plugin_Activation' => $vendorDir . '/udx/lib-wp-bootstrap/lib/classes/class-tgm-plugin-activation.php',
     'UsabilityDynamics\\WP\\Utility' => $vendorDir . '/udx/lib-wp-bootstrap/lib/classes/class-utility.php',
+    'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+    'WP_Async_Request' => $vendorDir . '/deliciousbrains/wp-background-processing/classes/wp-async-request.php',
+    'WP_Background_Process' => $vendorDir . '/deliciousbrains/wp-background-processing/classes/wp-background-process.php',
     'wpCloud\\StatelessMedia\\API' => $baseDir . '/lib/classes/class-api.php',
     'wpCloud\\StatelessMedia\\Ajax' => $baseDir . '/lib/classes/class-ajax.php',
     'wpCloud\\StatelessMedia\\Bootstrap' => $baseDir . '/lib/classes/class-bootstrap.php',
